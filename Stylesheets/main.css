@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+#main{
+    padding: 0!important;
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    transition: 0.25s all ease-in-out;
+    min-height: 100vh;
+}
+
+.welcome-box{
+    margin-top: 10em;
+}
+
+.loginForm{
+    min-height: 100vh;
+}
+
+.nav-item{
+    padding-right: 3em;
+}
+
+.logo{
+    min-height: 1em;
+    background-image: url('../Resources/Logo/logo.png');
+}
+
+.dashboard{
+    padding-top: 13em;
+}
+
+.cardBox{
+    padding: 1em;
+}
+
+.card{
+    transition: 0.5s all ease-in-out;
+}
+
+.card:hover{
+    transition: 0.25s all ease-in-out;
+    cursor: pointer;
+    border: none!important;
+    -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+}

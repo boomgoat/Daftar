@@ -1,0 +1,27 @@
+*{
+    text-decoration: none;
+}
+
+.side-bar{
+    height: 100vh;
+    background-color: #232323;
+    color: white;
+}
+
+.navigation{
+    list-style: none;
+    padding-top: 5em;
+}
+
+.navItem{
+    padding-top: 10vh;
+}
+
+a .navItem{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover .navItem{
+    text-decoration: none;
+}
